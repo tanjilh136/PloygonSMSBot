@@ -1,6 +1,6 @@
 import json
 
-CREDS_PATH = "../twilio_sms/twilio_creds.secret"
+CREDS_PATH = "  "
 
 
 class TwilioCredsUpdator:
