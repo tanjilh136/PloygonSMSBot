@@ -38,7 +38,7 @@ class SmsSender:
         self.owned_phone_number = owned_phone_number
         self.client = Client(twilio_sid, twilio_auth_token)
 
-    def send_message(self, to="+14083934260", body=""):
+    def send_message(self, to="+0000000", body=""):
         """
         Request twilio_sms to send message to a specific number. This function doesnt guaranty that the sms will be
         delivered {Twilio restricts outgoing/incoming sms based on a/c. The receiver phone number must be valid. and
@@ -134,5 +134,5 @@ if __name__ == "__main__":
     sms_handler = SmsHandler(twilio_sid=twilio_creds.get_sid(),
                              twilio_auth_token=twilio_creds.get_auth_token(),
                              owned_phone_number=twilio_creds.get_registered_number(),
-                             allowed_sender_phone=KARIMS_PHONE_NUMBER)
+                             allowed_sender_phone=____)
     sms_handler.wait_for_inbound_sms(refresh_after=2)
