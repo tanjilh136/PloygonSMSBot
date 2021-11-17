@@ -128,8 +128,8 @@ class SmsHandler:
 if __name__ == "__main__":
     from twilio_sms.twilio_credentials import TwilioCreds
 
-    twilio_creds = TwilioCreds().load_creds(account_name="MAMUN_TRIAL")
-    KARIMS_PHONE_NUMBER = "+14083934260"
+    twilio_creds = TwilioCreds().load_creds(account_name="")
+    PHONE_NUMBER = ""
 
     sms_handler = SmsHandler(twilio_sid=twilio_creds.get_sid(),
                              twilio_auth_token=twilio_creds.get_auth_token(),
