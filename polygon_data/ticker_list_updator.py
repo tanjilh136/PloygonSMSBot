@@ -59,5 +59,5 @@ def update_ticker_list_file(api_key):
 
 
 if __name__ == "__main__":
-    api_key = "Zay2cQZwZfUTozLiLmyprY4Sr3uK27Vp"
+    api_key = ""
     update_ticker_list_file(api_key)
