@@ -1,6 +1,6 @@
 from polygon import WebSocketClient, STOCKS_CLUSTER,CRYPTO_CLUSTER,FOREX_CLUSTER
 
-key = 'Zay2cQZwZfUTozLiLmyprY4Sr3uK27Vp'  # Polygon Key
+key = ''  # Polygon Key
 import time
 
 
