@@ -5,11 +5,11 @@ from telegram_bot.telegram_bot import TelegramBot
 from polygon_data.polygon_data_stream import PolygonRealTimeTradeData
 from custom_time.custom_time import CustomTimeZone
 
-KARIM_TELEGRAM_ID = 1820171423
-MAMUN_TELEGRAM_ID = 1799062390
+KARIM_TELEGRAM_ID = 
+MAMUN_TELEGRAM_ID = 
 allowed_telegram_user_id_list = [MAMUN_TELEGRAM_ID]
 growth_status_receiver_user_id = [MAMUN_TELEGRAM_ID]
-TELEGRAM_TOKEN = "1865929906:AAGsOug9ZTDQZ4O7LPm1WzigOtJ-9A9gNNs"
+TELEGRAM_TOKEN = ""
 
 
 class StockBot:
